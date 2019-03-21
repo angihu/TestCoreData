@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.myAppdelegate=(AppDelegate *)[[UIApplication sharedApplication] delegate];
+    NSLog(@"modified!!!!");
 }
 
 
