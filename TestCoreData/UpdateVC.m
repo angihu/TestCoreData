@@ -56,6 +56,8 @@
     NSPredicate *predicate=[NSPredicate predicateWithFormat:[NSString stringWithFormat:@"%@ == '%@'",self.optionsTF.text,self.resultTF.text]];
     [fetchRequest setPredicate:predicate];
     
+    NSLog(@"fuck");
+    
     //查询结果
     NSError *error=nil;
     NSMutableArray *mutableFetresult=[[self.myAppdelegate.managedObjectContext executeFetchRequest:fetchRequest error:&error] mutableCopy];

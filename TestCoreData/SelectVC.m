@@ -23,7 +23,7 @@
     _myAppdelegate=(AppDelegate *)[[UIApplication sharedApplication] delegate];
     _detailsArray=[[NSMutableArray alloc]init];
     
-    
+    NSLog(@"oh no");
     [self selectAllRecords:nil];
 }
 
